@@ -10,7 +10,7 @@ public class HelloMavenTest extends FunctionalTestCase {
 
 	 @Test
 	 public void retrieveFlightsAddsAppropriateHeader() throws Exception {
-	 MuleEvent event = runFlow("retrieveFlights");
+	 MuleEvent event = runFlow("mavenFlow");
 	 String contentType = event.getMessage().getOutboundProperty("Content-Type"); assertEquals("application/json", contentType);
 	 }
     

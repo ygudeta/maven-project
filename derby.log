@@ -1,11 +1,11 @@
 ----------------------------------------------------------------
-Wed Jul 22 10:57:18 EDT 2020:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0173-7707-5c66-000029ad3230 
-on database directory memory:/Users/ygudeta/AnypointStudio/workspace/apdevadv/muleEmbeddedDB with class loader org.mule.module.launcher.MuleApplicationClassLoader[apdevadv]@21eeee3b 
-Loaded from file:/Users/ygudeta/AnypointStudio/workspace/.mule/apps/apdevadv/lib/derby-10.12.1.1.jar
+Wed Jul 22 14:25:27 EDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0173-77c5-ee98-00001f9fca30 
+on database directory memory:/Users/ygudeta/AnypointStudio/workspace/maven-project/muleEmbeddedDB with class loader sun.misc.Launcher$AppClassLoader@7823a2f9 
+Loaded from file:/Users/ygudeta/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_191-b12
-user.dir=/Users/ygudeta/AnypointStudio/workspace/apdevadv
+user.dir=/Users/ygudeta/AnypointStudio/workspace/maven-project
 os.name=Mac OS X
 os.arch=x86_64
 os.version=10.13.6

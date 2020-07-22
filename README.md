@@ -11,3 +11,5 @@ This is my Maven project from MuleSoft's advanced development class
 3. (Optional) Set your MULE_HOME env variable: `export MULE_HOME={locationOfMuleInstall}`
 
 4. Package and deploy: `mvn install`
+
+Test it the app and let me know if you ran into any issues

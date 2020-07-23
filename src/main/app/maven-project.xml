@@ -11,8 +11,9 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
 http://www.mulesoft.org/schema/mule/batch http://www.mulesoft.org/schema/mule/batch/current/mule-batch.xsd
 http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/json/current/mule-json.xsd">
 
-	<http:listener-config host="localhost" name="httpList" port="8081" doc:name="HTTP Listener Configuration" />
-	
+	<http:listener-config host="localhost" name="httpList" port="${http.port}" doc:name="HTTP Listener Configuration" />
+	<global-property name="http.port" value="8081" doc:name="Global Property"/>
+	<global-property name="smtp.subject" value="Subject of Email" doc:name="Global Property"/>
 	<spring:beans>
 		<spring:bean id="Bean" name="Bean" class="com.mulesoft.training.Database" />
 	</spring:beans>

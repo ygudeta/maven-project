@@ -14,8 +14,8 @@
 		<derby.version>10.12.1.1</derby.version>
 		<mule.version>3.9.0</mule.version>
 		<mule.tools.version>1.7</mule.tools.version>
-		<uid></uid>
-		<pwd></pwd>
+		<uid/>
+		<pwd/>
 		<cloudhub.application.name>MavenProject</cloudhub.application.name>
 	</properties>
 
@@ -209,7 +209,12 @@
 			<version>${mule.version}</version>
 			<scope>provided</scope>
 		</dependency>
-	</dependencies>
+	<dependency>
+            <groupId>com.mulesoft.security</groupId>
+            <artifactId>mule-module-security-property-placeholder</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+    </dependencies>
 
 	<repositories>
 		<repository>
